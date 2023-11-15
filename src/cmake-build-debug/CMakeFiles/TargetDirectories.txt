@@ -1,0 +1,3 @@
+G:/Projetos/LearningC++/src/cmake-build-debug/CMakeFiles/src.dir
+G:/Projetos/LearningC++/src/cmake-build-debug/CMakeFiles/edit_cache.dir
+G:/Projetos/LearningC++/src/cmake-build-debug/CMakeFiles/rebuild_cache.dir
