@@ -3,7 +3,8 @@
 typedef std::string String_t;
 int main() {
     bool hasAonString;
-    String_t aa = "aaabbbbccc";
+    //constants are just a variable that cannot be changed
+    const String_t aa = "aaabbbbccc";
     for (char i : aa) {
         if(i == 'a') {
             hasAonString = true;
