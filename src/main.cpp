@@ -1,9 +1,11 @@
 #include <iostream>
-//Typedefs it's aliases to other data types
+//Typedefs it's aliases to other data types typedefs was replaced by 'using' keyword (work better w/ templates
 typedef std::string String_t;
+using String_t1 = std::string;
 int main() {
     bool hasAonString;
     String_t aa = "aaabbbbccc";
+    String_t1 bb = "bbbb";
     for (char i : aa) {
         if(i == 'a') {
             hasAonString = true;
