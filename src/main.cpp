@@ -1,8 +1,9 @@
 #include <iostream>
-
+//Typedefs it's aliases to other data types
+typedef std::string String_t;
 int main() {
     bool hasAonString;
-    std::string aa = "aaabbbbccc";
+    String_t aa = "aaabbbbccc";
     for (char i : aa) {
         if(i == 'a') {
             hasAonString = true;
