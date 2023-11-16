@@ -61,6 +61,12 @@ build CMakeFiles/src.dir/OOP/typeconversions.cpp.obj: CXX_COMPILER__src_unscanne
   OBJECT_DIR = CMakeFiles\src.dir
   OBJECT_FILE_DIR = CMakeFiles\src.dir\OOP
 
+build CMakeFiles/src.dir/maths/maths.cpp.obj: CXX_COMPILER__src_unscanned_Debug G$:/Projetos/LearningC++/src/maths/maths.cpp || cmake_object_order_depends_target_src
+  DEP_FILE = CMakeFiles\src.dir\maths\maths.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\src.dir
+  OBJECT_FILE_DIR = CMakeFiles\src.dir\maths
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target src
@@ -69,7 +75,7 @@ build CMakeFiles/src.dir/OOP/typeconversions.cpp.obj: CXX_COMPILER__src_unscanne
 #############################################
 # Link the executable src.exe
 
-build src.exe: CXX_EXECUTABLE_LINKER__src_Debug CMakeFiles/src.dir/old_main/main.cpp.obj CMakeFiles/src.dir/OOP/typeconversions.cpp.obj
+build src.exe: CXX_EXECUTABLE_LINKER__src_Debug CMakeFiles/src.dir/old_main/main.cpp.obj CMakeFiles/src.dir/OOP/typeconversions.cpp.obj CMakeFiles/src.dir/maths/maths.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\src.dir
