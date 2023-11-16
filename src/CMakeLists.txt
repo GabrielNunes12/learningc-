@@ -6,4 +6,5 @@ set(CMAKE_CXX_STANDARD 17)
 add_executable(src old_main/main.cpp
         OOP/typeconversions.cpp
         OOP/typeconversions.h
-        maths/maths.cpp)
+        maths/maths.cpp
+        Hypotenuse/hypotenuse.cpp)
