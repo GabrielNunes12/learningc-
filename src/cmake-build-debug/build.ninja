@@ -49,11 +49,11 @@ cmake_ninja_workdir = G$:/Projetos/LearningC++/src/cmake-build-debug/
 
 build cmake_object_order_depends_target_src: phony || CMakeFiles/src.dir
 
-build CMakeFiles/src.dir/main.cpp.obj: CXX_COMPILER__src_unscanned_Debug G$:/Projetos/LearningC++/src/main.cpp || cmake_object_order_depends_target_src
-  DEP_FILE = CMakeFiles\src.dir\main.cpp.obj.d
+build CMakeFiles/src.dir/old_main/main.cpp.obj: CXX_COMPILER__src_unscanned_Debug G$:/Projetos/LearningC++/src/old_main/main.cpp || cmake_object_order_depends_target_src
+  DEP_FILE = CMakeFiles\src.dir\old_main\main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\src.dir
-  OBJECT_FILE_DIR = CMakeFiles\src.dir
+  OBJECT_FILE_DIR = CMakeFiles\src.dir\old_main
 
 build CMakeFiles/src.dir/OOP/typeconversions.cpp.obj: CXX_COMPILER__src_unscanned_Debug G$:/Projetos/LearningC++/src/OOP/typeconversions.cpp || cmake_object_order_depends_target_src
   DEP_FILE = CMakeFiles\src.dir\OOP\typeconversions.cpp.obj.d
@@ -69,7 +69,7 @@ build CMakeFiles/src.dir/OOP/typeconversions.cpp.obj: CXX_COMPILER__src_unscanne
 #############################################
 # Link the executable src.exe
 
-build src.exe: CXX_EXECUTABLE_LINKER__src_Debug CMakeFiles/src.dir/main.cpp.obj CMakeFiles/src.dir/OOP/typeconversions.cpp.obj
+build src.exe: CXX_EXECUTABLE_LINKER__src_Debug CMakeFiles/src.dir/old_main/main.cpp.obj CMakeFiles/src.dir/OOP/typeconversions.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\src.dir

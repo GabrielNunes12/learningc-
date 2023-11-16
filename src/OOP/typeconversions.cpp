@@ -9,8 +9,9 @@ int main() {
     string name;
     cout << "Hello, new user! " << endl;
     cout << "What's your name? " << endl;
-    cin >> name;
+    std::getline(std::cin >> std::ws,name);
     typeconversions typo = *new typeconversions();
     typo.setName(name);
     cout << "Nice to meet you, " << typo.getName();
+    return 0;
 }
