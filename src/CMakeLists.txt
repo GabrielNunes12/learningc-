@@ -7,4 +7,5 @@ add_executable(src old_main/main.cpp
         OOP/typeconversions.cpp
         OOP/typeconversions.h
         maths/maths.cpp
-        Hypotenuse/hypotenuse.cpp)
+        Hypotenuse/hypotenuse.cpp
+        calculate_distance_between_points/distanceCalculator.cpp)

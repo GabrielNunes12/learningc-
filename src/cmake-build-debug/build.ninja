@@ -73,6 +73,12 @@ build CMakeFiles/src.dir/Hypotenuse/hypotenuse.cpp.obj: CXX_COMPILER__src_unscan
   OBJECT_DIR = CMakeFiles\src.dir
   OBJECT_FILE_DIR = CMakeFiles\src.dir\Hypotenuse
 
+build CMakeFiles/src.dir/calculate_distance_between_points/distanceCalculator.cpp.obj: CXX_COMPILER__src_unscanned_Debug G$:/Projetos/LearningC++/src/calculate_distance_between_points/distanceCalculator.cpp || cmake_object_order_depends_target_src
+  DEP_FILE = CMakeFiles\src.dir\calculate_distance_between_points\distanceCalculator.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\src.dir
+  OBJECT_FILE_DIR = CMakeFiles\src.dir\calculate_distance_between_points
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target src
@@ -81,7 +87,7 @@ build CMakeFiles/src.dir/Hypotenuse/hypotenuse.cpp.obj: CXX_COMPILER__src_unscan
 #############################################
 # Link the executable src.exe
 
-build src.exe: CXX_EXECUTABLE_LINKER__src_Debug CMakeFiles/src.dir/old_main/main.cpp.obj CMakeFiles/src.dir/OOP/typeconversions.cpp.obj CMakeFiles/src.dir/maths/maths.cpp.obj CMakeFiles/src.dir/Hypotenuse/hypotenuse.cpp.obj
+build src.exe: CXX_EXECUTABLE_LINKER__src_Debug CMakeFiles/src.dir/old_main/main.cpp.obj CMakeFiles/src.dir/OOP/typeconversions.cpp.obj CMakeFiles/src.dir/maths/maths.cpp.obj CMakeFiles/src.dir/Hypotenuse/hypotenuse.cpp.obj CMakeFiles/src.dir/calculate_distance_between_points/distanceCalculator.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\src.dir
